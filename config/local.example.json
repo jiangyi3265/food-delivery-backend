@@ -1,0 +1,13 @@
+{
+  "FOOD_DB_HOST": "127.0.0.1",
+  "FOOD_DB_PORT": "3306",
+  "FOOD_DB_USER": "root",
+  "FOOD_DB_PASSWORD": "",
+  "FOOD_DB_NAME": "food_delivery41",
+  "FOOD_REDIS_HOST": "127.0.0.1",
+  "FOOD_REDIS_PORT": "6379",
+  "FOOD_REDIS_PASSWORD": "",
+  "FOOD_REDIS_DATABASE": "14",
+  "RUOYI_TOKEN_SECRET": "",
+  "FOOD_SEED_PASSWORD": ""
+}

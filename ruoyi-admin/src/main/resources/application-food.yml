@@ -1,0 +1,21 @@
+server:
+  port: ${FOOD_PORT:8086}
+spring:
+  datasource:
+    druid:
+      master:
+        url: jdbc:mysql://${FOOD_DB_HOST:localhost}:${FOOD_DB_PORT:3306}/${FOOD_DB_NAME:food_delivery41}?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=false&serverTimezone=Asia/Shanghai&allowPublicKeyRetrieval=true
+        username: ${FOOD_DB_USER:root}
+        password: ${FOOD_DB_PASSWORD:}
+  redis:
+    host: ${FOOD_REDIS_HOST:localhost}
+    port: ${FOOD_REDIS_PORT:6379}
+    password: ${FOOD_REDIS_PASSWORD:}
+    database: ${FOOD_REDIS_DATABASE:14}
+ruoyi:
+  name: 食材配送
+logging:
+  level:
+    com.ruoyi: info
+food:
+  seed-password: ${FOOD_SEED_PASSWORD:}
